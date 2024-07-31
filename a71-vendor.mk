@@ -291,11 +291,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a71/proprietary/vendor/etc/sensors/config/stk3a6x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3a6x_0.json \
     vendor/samsung/a71/proprietary/vendor/etc/sensors/config/vcnl36811_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/vcnl36811_0.json \
     vendor/samsung/a71/proprietary/vendor/firmware/nfc/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/libpn553_fw.so \
-    vendor/samsung/a71/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
-    vendor/samsung/a71/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
-    vendor/samsung/a71/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
-    vendor/samsung/a71/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
-    vendor/samsung/a71/proprietary/vendor/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
     vendor/samsung/a71/proprietary/vendor/lib/camera/com.qti.eeprom.n24s64b_imx616.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.n24s64b_imx616.so \
     vendor/samsung/a71/proprietary/vendor/lib/camera/com.samsung.sensor.gc5035.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensor.gc5035.so \
     vendor/samsung/a71/proprietary/vendor/lib/camera/com.samsung.sensor.gc5035_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensor.gc5035_macro.so \
@@ -417,8 +412,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a71/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/samsung/a71/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/samsung/a71/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/samsung/a71/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
-    vendor/samsung/a71/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
     vendor/samsung/a71/proprietary/vendor/lib64/camera/com.qti.eeprom.n24s64b_imx616.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.n24s64b_imx616.so \
     vendor/samsung/a71/proprietary/vendor/lib64/camera/com.samsung.sensor.gc5035.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.gc5035.so \
     vendor/samsung/a71/proprietary/vendor/lib64/camera/com.samsung.sensor.gc5035_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.gc5035_macro.so \
