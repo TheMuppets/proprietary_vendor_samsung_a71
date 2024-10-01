@@ -1636,27 +1636,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmpbase",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libmpbase.so"],
-			shared_libs: ["libc", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libmpbase.so"],
-			shared_libs: ["libc", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libqcwrappercommon",
 	owner: "samsung",
 	strip: {
@@ -1691,48 +1670,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqfp_sensortest.so"],
 			shared_libs: ["libcutils", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libsensorlistener",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libsensorlistener.so"],
-			shared_libs: ["libcutils", "libutils", "libsensorndkbridge", "liblog", "libhardware", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsensorlistener.so"],
-			shared_libs: ["libcutils", "libutils", "libsensorndkbridge", "liblog", "libhardware", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libsensorndkbridge",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libsensorndkbridge.so"],
-			shared_libs: ["libbase", "libhidlbase", "libutils", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsensorndkbridge.so"],
-			shared_libs: ["libbase", "libhidlbase", "libutils", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -1943,27 +1880,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/sensors.grip.so"],
 			shared_libs: ["liblog", "libcutils", "libutils", "libfmq", "libhidlbase", "libhardware", "android.hardware.sensors@2.0", "android.hardware.sensors@2.0-ScopedWakelock", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "sensors.ssc",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/sensors.ssc.so"],
-			shared_libs: ["libprotobuf-cpp-lite-3.9.1-vendorcompat", "liblog", "libsnsapi", "libssc", "libsnsdiaglog", "libutils", "libcutils", "libsns_fastRPC_util", "libsensorslog", "libhardware", "libhidltransport", "libhidlbase", "android.hardware.sensors@2.0", "android.hardware.sensors@2.0-ScopedWakelock", "android.hardware.graphics.mapper@3.0", "android.hardware.graphics.mapper@2.0", "vendor.qti.hardware.display.mapper@3.0", "vendor.qti.hardware.display.mapper@1.1", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/sensors.ssc.so"],
-			shared_libs: ["libprotobuf-cpp-lite-3.9.1-vendorcompat", "liblog", "libsnsapi", "libssc", "libsnsdiaglog", "libutils", "libcutils", "libsns_fastRPC_util", "libsensorslog", "libhardware", "libhidltransport", "libhidlbase", "android.hardware.sensors@2.0", "android.hardware.sensors@2.0-ScopedWakelock", "android.hardware.graphics.mapper@3.0", "android.hardware.graphics.mapper@2.0", "vendor.qti.hardware.display.mapper@3.0", "vendor.qti.hardware.display.mapper@1.1", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",

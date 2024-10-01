@@ -394,11 +394,8 @@ PRODUCT_PACKAGES += \
     liblivefocus_preview_engine \
     liblivefocus_preview_interface \
     liblow_light_hdr \
-    libmpbase \
     libqcwrappercommon \
     libqfp_sensortest \
-    libsensorlistener \
-    libsensorndkbridge \
     libsmartfocus_interface \
     libsmartfocusengine \
     libsnap_vndk \
@@ -409,7 +406,6 @@ PRODUCT_PACKAGES += \
     libvdis_core \
     libvdis_interface \
     sensors.grip \
-    sensors.ssc \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
     com.qti.stats.aec \
