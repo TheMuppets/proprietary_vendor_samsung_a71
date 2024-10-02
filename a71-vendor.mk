@@ -250,7 +250,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a71/proprietary/vendor/etc/audconf/ZVV/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ZVV/Speaker_cal.acdb \
     vendor/samsung/a71/proprietary/vendor/etc/audconf/ZVV/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ZVV/workspaceFile.qwsp \
     vendor/samsung/a71/proprietary/vendor/etc/init/init.nfc.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.samsung.rc \
-    vendor/samsung/a71/proprietary/vendor/etc/init/nxp.android.hardware.nfc@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp.android.hardware.nfc@1.1-service.rc \
+    vendor/samsung/a71/proprietary/vendor/etc/init/nxp.android.hardware.nfc@1.1-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp.android.hardware.nfc@1.1-service.samsung.rc \
     vendor/samsung/a71/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/samsung/a71/proprietary/vendor/etc/sensors/config/default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/default_sensors.json \
     vendor/samsung/a71/proprietary/vendor/etc/sensors/config/icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm4x6xx_0.json \
@@ -433,7 +433,7 @@ PRODUCT_PACKAGES += \
     libsnap_v1.samsung \
     libsnpe_dsp_domains_v2 \
     libsnpe_wrapper \
-    nfc_nci_nxp \
+    nfc_nci_nxp_vendor \
     vendor.nxp.nxpnfc@1.1 \
     factory.ssc \
-    nxp.android.hardware.nfc@1.1-service
+    nxp.android.hardware.nfc@1.1-service.samsung
