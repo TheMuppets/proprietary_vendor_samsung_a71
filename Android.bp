@@ -2423,11 +2423,11 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "nxp.android.hardware.nfc@1.1-service.samsung",
+	name: "nxp.android.hardware.nfc@1.1-service",
 	owner: "samsung",
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/bin/hw/nxp.android.hardware.nfc@1.1-service.samsung"],
+			srcs: ["proprietary/vendor/bin/hw/nxp.android.hardware.nfc@1.1-service"],
 			shared_libs: ["nfc_nci_nxp", "libbase", "libcutils", "libhardware", "liblog", "libutils", "android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "android.hardware.nfc@1.2", "libhidlbase", "vendor.nxp.nxpnfc@1.0", "vendor.nxp.nxpnfc@1.1", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
